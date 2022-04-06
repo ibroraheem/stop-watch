@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: url(./top-bg.jpg);
+    background-size: cover;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.timer{
+    font-size: 150px;
+    color: crimson;
+
+}
+
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: tomato;
+    border: none;
+}
+.start:hover{
+    background-color: blue;
+    color: white;
+}
+.stop:hover{
+    background-color: black;
+    color: white;
+}
+.reset:hover{
+    background-color: crimson;
+    color: white;
+}
