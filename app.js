@@ -23,8 +23,7 @@ pause.addEventListener("click", () => {
 
 reset.addEventListener("click", () => {
     clearInterval(interval);
-
-
+    seconds = 0, minutes = 0;
     timerRef.innerHTML = "00 : 00";
 });
 
@@ -36,6 +35,6 @@ function displayTimer() {
     }
     let m = minutes < 10 ? "0" + minutes : minutes;
     let s = seconds < 10 ? "0" + seconds : seconds;
-    
+
     timerRef.innerHTML = `${m} : ${s}`;
 }
